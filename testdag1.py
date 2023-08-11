@@ -6,7 +6,7 @@ def print_hello():
     return "Hello Airflow!"
 
 dag = DAG(
-    'simple_dag',
+    'test_dag',
     default_args={
         'owner': 'airflow',
         'start_date': datetime.utcnow(),
